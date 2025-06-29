@@ -23,7 +23,7 @@ agent = Agent(
     name="Sample Agent",
     seed="SampleSeed",
     port=8000,
-    endpoint="http://sapphire-armadillo.vm.secretvm.com:8000/submit",
+    endpoint="http://0.0.0.0:8000/submit",
 )
 
 sample_proto = QuotaProtocol(
