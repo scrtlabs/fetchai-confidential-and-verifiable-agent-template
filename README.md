@@ -6,6 +6,8 @@ Agents deployed in SecretVM (using TEE technology) get two important properties:
 * 😎 Privacy - agents' memory and storage are encrypted and can't be accessed by the hardware owner or root user of the machine
 * ✅ Verifiability - using cryptographic TEE attestation, it is possible to _prove_ which source code is running in the agent
 
+Such agents essentially become **Confidential** and **Trustless**, removing the need to trust the developer, making the code law
+
 # Getting Started
 
 
